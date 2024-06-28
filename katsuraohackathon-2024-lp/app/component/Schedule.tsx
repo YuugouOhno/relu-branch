@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const Schedule = () => (
-    <div className="text-4xl text-center items-center justify-center md:h-2/3screen h-screen z-10 relative">
+    <>
         <Image
             className="md:block hidden"
             src="/スケジュール(PC).png"
@@ -16,7 +16,7 @@ const Schedule = () => (
             width={600}
             height={300}
         />
-    </div>
+    </>
 )
 
 export default Schedule

@@ -17,12 +17,12 @@ const Container = ({
     backgroundColor = "transparent",
 }: ContainerProps) => (
 <>
-    <div className={`min-h-screen flex flex-col items-center md:justify-center text-white font-bold ${backgroundColor}`}>
+    <div className={`md:min-h-screen flex flex-col items-center md:justify-center text-white font-bold ${backgroundColor}`}>
         <div className="z-10 text-center">
             {title && <p className="text-vh-25 -mb-10 outline-text">{title}</p>}
             {subTitle && <h2 className="text-3xl mb-10">{subTitle}</h2>}
         </div>
-        <div className="z-10 text-center">
+        <div className="z-10 text-center md:mb-0 mb-12 ">
         {children}
         </div>
         {/* {navbar} */}

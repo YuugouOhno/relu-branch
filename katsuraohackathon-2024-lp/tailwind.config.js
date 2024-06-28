@@ -20,9 +20,10 @@ module.exports = {
         'c-green-orange': 'linear-gradient(to right, rgba(255, 153, 51, 0.4), rgba(51, 204, 51, 0.4))',
       },
       colors: {
-        'c-green': 'rgba(34, 139, 34, 0.4)', // 翠（ミントグリーン）
-        'c-orange': 'rgba(255, 153, 51, 0.4)', // オレンジ
+        'c-green': 'rgba(34, 139, 34, 0.4)', // 緑
+        'c-orange':'rgba(204, 122, 41, 0.4)', // オレンジ
         'c-black': 'rgba(0, 0, 0, 0.4)',       // 黒
+        'c-white': 'rgba(100, 100, 100, 0.4)',       // しろ
       },
     }
   },

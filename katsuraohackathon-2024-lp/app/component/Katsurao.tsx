@@ -1,6 +1,6 @@
 const Katsurao = () => (
-    <div className="h-screen flex flex-col justify-center items-center">
-        <p className="text-3xl">かつらお(葛尾)とは？</p>
+    <div className="h-screen flex flex-col justify-center items-center my-20">
+        <p id="katsurao" className="text-3xl">かつらお(葛尾)とは？</p>
         <p className="font-bold md:font-light text-sm md:text-xl mb-6 ml-32 mr-32">
         葛尾村は、福島県浜通りの阿武隈山系に属し、双葉郡の最北端に位置します。村の集落は、これらの河川の沿岸に形成され、標高は300m〜600mと高く、緑も多く空気も綺麗で、高原地帯の中に住居が点在しているのが特徴で、移住に特化した住みやすい場所です。震災では全村避難となり、一度全村ゼロになった葛尾村では、何も無かったからこそ、何かできる可能性が無限。現在では、新しいことにどんどんチャレンジする人や、若年層の移住者が徐々に増えてきています。(葛尾村HPより)
         </p>
