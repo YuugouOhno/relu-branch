@@ -8,10 +8,13 @@ import About from './component/About';
 import Katsurao from './component/Katsurao';
 import Schedule from './component/Schedule';
 import Sponsors from './component/Sponsors';
+import FixedButton from './component/FixedButton';
+
 
 export default function Home() {
   return (
     <main>
+      <FixedButton/>
       <div className="background-image"></div> {/* 背景画像 */}
       <Container navbar={<Navbar />} backgroundColor="bg-c-green-orange">
         <div className="h-screen  flex flex-col items-center justify-center ">
