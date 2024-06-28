@@ -14,7 +14,7 @@ export default function Home() {
     <main>
       <div className="background-image"></div> {/* 背景画像 */}
       <Container navbar={<Navbar />} backgroundColor="bg-c-green-orange">
-        <div className="text-4xl text-center items-center justify-center h-2/3screen z-10 relative">
+        <div className="h-screen  flex flex-col items-center justify-center ">
           <Image src="/title.png" alt="title" width={600} height={300}/>
         </div>
       </Container>

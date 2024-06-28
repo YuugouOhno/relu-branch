@@ -7,17 +7,18 @@ type ContainerProps = {
     subTitle?: string;
     navbar?: ReactNode;
     backgroundColor?: string;
-  }
+}
   
 const Container = ({ 
     children, 
     title = "",
     subTitle = "",
+    
     navbar,
     backgroundColor = "transparent",
 }: ContainerProps) => (
 <>
-    <div className={`md:min-h-screen flex flex-col items-center md:justify-center text-white font-bold ${backgroundColor}`}>
+    <div className={`md:min-h-screen flex flex-col items-center justify-center text-white font-bold ${backgroundColor} md:px-0 px-6`}>
         <div className="z-10 text-center">
             {title && <p className="text-vh-25 -mb-10 outline-text">{title}</p>}
             {subTitle && <h2 className="text-3xl mb-10">{subTitle}</h2>}
