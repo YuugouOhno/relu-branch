@@ -21,7 +21,7 @@ const Sponsors = ({
             <h1 className="text-5xl">{title}</h1>
             {logo_url&& <Image src={logo_url} alt="logo" width={200} height={100}/>}
             <p className="font-bold md:font-light text-sm md:text-xl mb-6 md:ml-32 md:mr-32 mr-8 ml-8">{describe}</p>
-            {hp_url&&<a href={hp_url} className="border-b-2 border-black-300 hover:text-gray-300">{title}についてはこちら</a>}
+            {hp_url&&<a href={hp_url} target="_blank" className="border-b-2 border-black-300 hover:text-gray-300">{title}についてはこちら</a>}
         </div>
     </>
 )

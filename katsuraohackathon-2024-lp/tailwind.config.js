@@ -21,7 +21,7 @@ module.exports = {
       },
       colors: {
         'c-green': 'rgba(34, 139, 34, 0.4)', // 緑
-        'c-orange':'rgba(204, 122, 41, 0.4)', // オレンジ
+        'c-orange':'rgba(153, 73, 0, 0.4)', // オレンジ
         'c-black': 'rgba(0, 0, 0, 0.4)',       // 黒
         'c-white': 'rgba(100, 100, 100, 0.4)',       // しろ
       },

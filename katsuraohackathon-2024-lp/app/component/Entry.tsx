@@ -17,8 +17,8 @@ const Entry = () => (
     <div className=" mb-10 md:mb-20">
         <p className="font-extrabold font-title md:border-b md:border-katurao-black pb-2 md:mb-2">申込締切</p>
         <p className="font-bold md:font-light text-sm md:text-xl">
-            7月31日まで。<br />
-            選考結果は8月7日頃代表者へご連絡します。</p>
+            <span className="text-2xl font-bold text-red-500">7/21(日)</span>まで。<br />
+            選考結果は７月中に代表者へご連絡します。</p>
     </div>
 </div>
 )
