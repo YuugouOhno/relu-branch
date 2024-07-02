@@ -2,7 +2,7 @@ import Sponsor from './Sponsor';
 
 const Sponsors = () => (
     <>
-        <Sponsor title="株式会社スカラコミュニケーションズ" logo_url="" hp_url="https://scala-com.jp/"
+        <Sponsor title="株式会社スカラ" logo_url="" hp_url="https://scalagrp.jp/"
         describe=""/>
         <Sponsor title="株式会社HANERU葛尾" logo_url="" hp_url="https://haneru-katsurao.com/"
         describe="" />
