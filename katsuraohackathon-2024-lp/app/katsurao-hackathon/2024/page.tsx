@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React,{ useState, useEffect } from 'react';
-import Container from './component/Container';
+import Container from '../../component/Container';
 import ReactDOM from 'react-dom';
-import Navbar from './component/Navbar.client';
-import Entry from './component/Entry';
-import About from './component/About';
-import Katsurao from './component/Katsurao';
-import Schedule from './component/Schedule';
-import Sponsors from './component/Sponsors';
-import FixedButton from './component/FixedButton';
+import Navbar from '../../component/Navbar.client';
+import Entry from '../../component/Entry';
+import About from '../../component/About';
+import Katsurao from '../../component/Katsurao';
+import Schedule from '../../component/Schedule';
+import Sponsors from '../../component/Sponsors';
+import FixedButton from '../../component/FixedButton';
 
 
 export default function Home() {
