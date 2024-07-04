@@ -11,7 +11,7 @@ const Entry = () => (
         <p className="font-extrabold font-title md:border-b md:border-katurao-black pb-2 md:mb-2">諸費用</p>
         <p className="font-bold md:font-light text-sm md:text-xl">
         参加費・宿泊費：無料<br />
-        交通費補助：1万円
+        交通費補助：1.5万円
         </p>
     </div>
     <div className=" mb-10 md:mb-20">
