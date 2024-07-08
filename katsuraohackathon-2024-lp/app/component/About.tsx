@@ -1,12 +1,21 @@
 import ButtonGroup from './ButtonGroup';
+import FormButton from './FormButton';
 
 const About = () => (
     <div className="flex flex-col item-centerflex flex-col items-center md:justify-center">
-        <p className="md:text-2xl  mb-0 md:ml-32 md:mr-32 break-words">
-            福島にある<span className="text-green-400 md:text-3xl text-xl">葛尾村</span>という集落を舞台に<span className="text-green-400 md:text-3xl text-xl">地域密着型</span>のハッカソンを開催します！
-            村でエビの養殖をしている<span className="font-bold">株式会社HANERU葛尾様</span>での業務体験・ヒアリングから<span className="text-green-400 md:text-3xl text-xl">要件定義</span>を行い、ユーザーを意識した<span className="font-bold md:text-4xl text-xl">実践的な開発経験</span>を積むことができます！
+        <p className="md:text-xl  mb-0 md:ml-32 md:mr-32 break-words">
+            <br/>
+            福島にある<span className="md:text-2xl text-xl"><ruby>葛尾<rt>かつらお</rt></ruby>村</span>という集落を舞台に、<br/>
+            <span className="md:text-2xl text-xl">地域密着型</span>のハッカソンを開催します！<br/>
+            <br/>
+            自然豊かな葛尾村で３日間合宿後、<br/>プロのエンジニアからのフィードバック。<br/>
+            <br/>
+            <span className="md:text-2xl text-xl underline-text">&nbsp;賞金は最大<span className="md:text-3xl">２４万円！</span>&nbsp;</span><br/>
+            <span className="md:text-2xl text-xl underline-text">&nbsp;宿泊費全額補助、交通費一部補助！</span><br/>
         </p>
-        <ButtonGroup/>
+        <br/>
+        <br/>
+        <FormButton/>
     </div>
 )
 export default About;
