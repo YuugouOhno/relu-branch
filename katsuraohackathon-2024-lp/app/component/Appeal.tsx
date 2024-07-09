@@ -2,7 +2,7 @@ import ButtonGroup from './ButtonGroup';
 import FormButton from './FormButton';
 
 const Appeal = () => (
-    <div className="flex flex-col item-centerflex flex-col items-center md:justify-center">
+    <div className="flex flex-col text-black item-centerflex flex-col items-center md:justify-center">
         <p className="md:text-xl  mb-0 md:ml-32 md:mr-32 break-words">
             <br/>
             エビの養殖をしている<br/>

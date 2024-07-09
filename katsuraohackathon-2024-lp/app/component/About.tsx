@@ -2,7 +2,7 @@ import ButtonGroup from './ButtonGroup';
 import FormButton from './FormButton';
 
 const About = () => (
-    <div className="flex flex-col item-centerflex flex-col items-center md:justify-center">
+    <div className=" flex text-black flex-col item-centerflex flex-col items-center md:justify-center">
         <p className="md:text-xl  mb-0 md:ml-32 md:mr-32 break-words">
             <br/>
             福島にある<span className="md:text-2xl text-xl"><ruby>葛尾<rt>かつらお</rt></ruby>村</span>という集落を舞台に、<br/>
