@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   keywords: "かつらおハッカソン, 葛尾, 葛尾村, ハッカソン",
   robots: "index, follow",
   openGraph: {
+    type: "website", // 必須プロパティ
     title: "かつらおハッカソン2024",
     description: "福島にある葛尾村という集落を舞台に地域密着型のハッカソンを開催します！",
     images: [

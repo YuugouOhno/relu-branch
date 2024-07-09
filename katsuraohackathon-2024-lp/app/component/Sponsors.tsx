@@ -9,10 +9,7 @@ const Sponsors = () => (
         <Sponsor title="株式会社ORENDA WORLD" logo_url="" hp_url="https://orenda.co.jp/"
         describe="" />
         <Sponsor title="福島イノベ機構" logo_url="" hp_url="https://www.fipo.or.jp/"
-        describe="本事業は福島イノベーション・コースト構想の採択を受け、
-        イノベ地域来訪者受入体制構築事業
-        「地域の価値向上に向けたブラッシュアップ事業の実施」のうち
-        「かつらおハッカソン」として実施します。" />
+        describe="かつらおハッカソン事業は、福島イノベーション・コースト構想イノベ地域における交流・関係人口拡大推進事業「地域の価値向上に向けたブラッシュアップ事業」に選定され、実施しております。" />
 
     </>
 )
