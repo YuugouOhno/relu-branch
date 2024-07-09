@@ -1,5 +1,5 @@
 const Entry = () => (
-<div className="">
+<div className="text-black">
     <div className="mb-10">
         <p className="font-extrabold font-title md:border-b md:border-katurao-black pb-2 md:mb-2">参加対象・定員</p>
         <p className="font-bold md:font-light text-sm md:text-xl">大学生等 16名（4名×4チーム）<br/>

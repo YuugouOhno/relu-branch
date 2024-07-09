@@ -29,7 +29,7 @@ export default function Home() {
       <Container title="Appeal" subTitle="魅力" backgroundColor="bg-c-gray">
         <Appeal/>
       </Container>
-      <Container title="Schedule" subTitle="スケジュール" backgroundColor="bg-c-yayagray">
+      <Container title="Schedule" subTitle="スケジュール" backgroundColor="bg-c-yayawhite">
         <Schedule/>
       </Container>
       <Container title="Entry" subTitle="募集要項" backgroundColor="bg-c-gray">

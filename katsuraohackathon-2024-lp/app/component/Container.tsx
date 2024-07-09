@@ -20,7 +20,7 @@ const Container = ({
 <>
     <div className={`md:min-h-screen flex flex-col items-center justify-center font-bold ${backgroundColor} md:px-0 px-6`}>
         <div className="z-10 text-center">
-            {title && <p className="text-vh-25 -mb-10 outline-text">{title}</p>}
+            {title && <p className="text-vh-25 -mb-10">{title}</p>}
             {subTitle && <h2 className="text-3xl mb-10">{subTitle}</h2>}
         </div>
         <div className="z-10 text-center md:mb-0 mb-12 ">
