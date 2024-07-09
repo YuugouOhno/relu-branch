@@ -41,6 +41,13 @@ export default function Home() {
       <Container title="Sponsor" subTitle="協賛" backgroundColor="bg-c-gray">
         <Sponsors/>
       </Container>
+      <Container title="" subTitle="かつらおハッカソン事業について" backgroundColor="bg-c-yayagray">
+      <div id="福島イノベ機構" className="flex flex-col items-center mb-20">
+            <p className="font-bold md:font-light text-sm md:text-xl mb-6 md:ml-32 md:mr-32 mr-8 ml-8">本事業は、福島イノベーション・コースト構想イノベ地域における交流・関係人口拡大推進事業「地域の価値向上に向けたブラッシュアップ事業」に選定され、実施しております。</p>
+            <a href="https://www.fipo.or.jp/" target="_blank" className="border-b-2 border-black-300 hover:text-gray-300">福島イノベ機構についてはこちら</a>
+        </div>
+      </Container>
+
     </main>
   );
 }
