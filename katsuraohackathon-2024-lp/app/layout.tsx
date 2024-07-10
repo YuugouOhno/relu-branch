@@ -18,14 +18,14 @@ export const metadata: Metadata = {
     siteName: "かつらおハッカソン2024",
     locale: 'ja_JP',
     type: "website", // 必須プロパティ
-    // images: [
-    //   {
-    //     url: 'https://relu-branch.com//thumbnail.png',  // 相対パス
-    //     width: 800,
-    //     height: 600,
-    //     alt: 'サムネイル画像の説明',
-    //   },
-    // ],
+    images: [
+      {
+        url: 'https://relu-branch.com/thumbnail.png',  // 相対パス
+        width: 800,
+        height: 600,
+        alt: 'サムネイル画像の説明',
+      },
+    ],
   },
   // twitter: {
   //   card: "summary_large_image",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   //   description: "福島にある葛尾村という集落を舞台に地域密着型のハッカソンを開催します！",
   //   images: [
   //     {
-  //       url: 'https://relu-branch.com//thumbnail.png',  // 相対パス
+  //       url: 'https://relu-branch.com/thumbnail.png',  // 相対パス
   //       alt: 'サムネイル画像の説明',
   //     },
   //   ],
