@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     type: "website", // 必須プロパティ
     images: [
       {
-        url: 'https://relu-branch.com/thumbnail.png',  // 相対パス
+        url: 'https://katsuraohackathon-2024-b7r2kv0v1-yuugouohnos-projects.vercel.app/opengraph-image.png?d3a7edbcfc4748f1=',  // 相対パス
         width: 800,
         height: 600,
         alt: 'サムネイル画像の説明',
