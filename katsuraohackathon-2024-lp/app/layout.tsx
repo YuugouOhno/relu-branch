@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website", // 必須プロパティ
     title: "かつらおハッカソン2024",
+    locale: 'ja_JP',
+    url: 'https://relu-branch.com/katsurao-hackathon/2024',
     description: "福島にある葛尾村という集落を舞台に地域密着型のハッカソンを開催します！",
     images: [
       {
@@ -21,7 +23,6 @@ export const metadata: Metadata = {
         alt: 'サムネイル画像の説明',
       },
     ],
-    url: 'https://relu-branch.com/katsurao-hackathon/2024',
   },
   twitter: {
     card: "summary_large_image",
