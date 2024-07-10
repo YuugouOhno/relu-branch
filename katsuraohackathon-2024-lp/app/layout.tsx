@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Noto_Sans } from "next/font/google";
 import "./globals.css";
 
+export const dynamic = 'force-dynamic'
+
 const inter = Noto_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
