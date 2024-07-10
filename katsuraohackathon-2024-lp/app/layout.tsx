@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     description: "福島にある葛尾村という集落を舞台に地域密着型のハッカソンを開催します！",
     images: [
       {
-        url: '/thumbnail.png',  // 相対パス
+        url: 'https://relu-branch.com//thumbnail.png',  // 相対パス
         width: 800,
         height: 600,
         alt: 'サムネイル画像の説明',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description: "福島にある葛尾村という集落を舞台に地域密着型のハッカソンを開催します！",
     images: [
       {
-        url: '/thumbnail.png',  // 相対パス
+        url: 'https://relu-branch.com//thumbnail.png',  // 相対パス
         alt: 'サムネイル画像の説明',
       },
     ],
