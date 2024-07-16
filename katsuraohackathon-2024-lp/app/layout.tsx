@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: "website", // 必須プロパティ
     images: [
       {
-        url: 'https://katsuraohackathon-2024-b7r2kv0v1-yuugouohnos-projects.vercel.app/opengraph-image.png?d3a7edbcfc4748f1=',  // 相対パス
+        url: 'https://relu-branch.com/katsurao-hackathon/2024/thumbnail.jpg',  // 相対パス
         width: 800,
         height: 600,
         alt: 'サムネイル画像の説明',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'かつらおハッカソン2024',
     description: '福島にある葛尾村という集落を舞台に地域密着型のハッカソンを開催します！',
-    images: 'https://relu-branch.com/katsurao-hackathon/2024/thumbnail.png',
+    images: 'https://relu-branch.com/katsurao-hackathon/2024/thumbnail.jpg',
   },
   verification: {
     google: 'mgjC376pDDqXAumrXz_j8QTxHQ3hJBXxEz6fMJNfExk',
@@ -60,14 +60,14 @@ export default function RootLayout({
         <meta property="og:site_name" content="かつらおハッカソン2024" />
         <meta property="og:locale" content="ja_JP" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/katsurao-hackathon/2024/thumbnail.png" />
+        <meta property="og:image" content="/katsurao-hackathon/2024/thumbnail.jpg" />
         <meta property="og:image:width" content="800" />
         <meta property="og:image:height" content="600" />
         <meta property="og:image:alt" content="サムネイル画像" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="かつらおハッカソン2024" />
         <meta name="twitter:description" content="福島にある葛尾村という集落を舞台に地域密着型のハッカソンを開催します！" />
-        <meta name="twitter:image" content="/katsurao-hackathon/2024/thumbnail.png" />
+        <meta name="twitter:image" content="https://relu-branch.com/katsurao-hackathon/2024/thumbnail.jpg" />
         <meta name="google-site-verification" content="mgjC376pDDqXAumrXz_j8QTxHQ3hJBXxEz6fMJNfExk" />
       </Head>
       <body className={inter.className}>{children}</body>
