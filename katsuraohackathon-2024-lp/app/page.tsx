@@ -1,6 +1,12 @@
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+
 export default function Home() {
-  return (
-    <>
-    </>
-  );
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push('https://relu-branch.com/katsurao-hackathon/2024');
+  }, [router]);
+
+  return null; // ページコンテンツは不要なのでnullを返します
 }
