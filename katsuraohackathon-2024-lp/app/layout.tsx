@@ -38,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <Head>
-      <meta name="google-site-verification" content="mgjC376pDDqXAumrXz_j8QTxHQ3hJBXxEz6fMJNfExk" />
+        <meta name="google-site-verification" content="mgjC376pDDqXAumrXz_j8QTxHQ3hJBXxEz6fMJNfExk" />
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/favicon.png" />
