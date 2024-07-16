@@ -60,14 +60,14 @@ export default function RootLayout({
         <meta property="og:site_name" content="かつらおハッカソン2024" />
         <meta property="og:locale" content="ja_JP" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://relu-branch.com/katsurao-hackathon/2024/thumbnail.png" />
+        <meta property="og:image" content="/katsurao-hackathon/2024/thumbnail.png" />
         <meta property="og:image:width" content="800" />
         <meta property="og:image:height" content="600" />
         <meta property="og:image:alt" content="サムネイル画像" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="かつらおハッカソン2024" />
         <meta name="twitter:description" content="福島にある葛尾村という集落を舞台に地域密着型のハッカソンを開催します！" />
-        <meta name="twitter:image" content="https://relu-branch.com/katsurao-hackathon/2024/thumbnail.png" />
+        <meta name="twitter:image" content="/katsurao-hackathon/2024/thumbnail.png" />
         <meta name="google-site-verification" content="mgjC376pDDqXAumrXz_j8QTxHQ3hJBXxEz6fMJNfExk" />
       </Head>
       <body className={inter.className}>{children}</body>
