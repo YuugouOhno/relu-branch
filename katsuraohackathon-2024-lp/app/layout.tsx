@@ -60,7 +60,7 @@ export default function RootLayout({
         <meta property="og:site_name" content="かつらおハッカソン2024" />
         <meta property="og:locale" content="ja_JP" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/katsurao-hackathon/2024/thumbnail.jpg" />
+        <meta property="og:image" content="https://relu-branch.com/katsurao-hackathon/2024/thumbnail.jpg" />
         <meta property="og:image:width" content="800" />
         <meta property="og:image:height" content="600" />
         <meta property="og:image:alt" content="サムネイル画像" />
