@@ -33,10 +33,7 @@ export const metadata: Metadata = {
     title: 'かつらおハッカソン2024',
     description: '福島にある葛尾村という集落を舞台に地域密着型のハッカソンを開催します！',
     images: 'https://relu-branch.com/katsurao-hackathon/2024/thumbnail.jpg',
-  },
-  verification: {
-    google: 'mgjC376pDDqXAumrXz_j8QTxHQ3hJBXxEz6fMJNfExk',
-  },
+  }
 };
 
 export default function RootLayout({
